@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+.DS_Store
+.omc/state/
+.claude/
+.omc/*
+!.omc/specs/

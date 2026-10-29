@@ -1,0 +1,86 @@
+# 주제를 바꿀 때는 이 파일과 source_candidates.yaml만 고치면 된다 (README "새 주제로 만들기")
+domain: "Dogs & Cats"
+language: ko
+newsletter_name: "멍냥 데일리"
+
+# 소스 실측(tools/eval_sources.py)의 주제 적합도 판정 기준
+topic_fit: >
+  강아지·고양이(반려견·반려묘)가 중심인 기사. 다른 동물이 중심이거나 동물과 무관한 기사는 해당하지 않는다.
+
+persona:
+  who: "출근길에 가볍게 읽는 직장인 (반려인·비반려인 모두)"
+  when: "평일 아침 출근길, 디스코드, 3~5분"
+  needs:
+    - "읽으면 마음이 따뜻해지는 강아지·고양이 사연과 귀여운 소식"
+    - "'오, 그렇구나' 싶은 반려 생활 팁·신기한 연구·새 제도"
+
+importance_question: >
+  출근길 직장인이 ① 읽고 기분이 좋아지거나(따뜻한 사연·귀여운 소식)
+  ② 관심이 생기는(생활 팁·신기한 연구·새 제도) 강아지·고양이 소식인가?
+
+# 채택 소스 (근거: store/source_eval.json — 빈도 ≥ 7/주, 접근성 ≥ 80%, 주간 적합 기사 ≥ 7)
+sources:
+  - name: "iHeartDogs"
+    lang: EN
+    kind: rss
+    url: "https://iheartdogs.com/feed/"
+  - name: "iHeartCats"
+    lang: EN
+    kind: rss
+    url: "https://iheartcats.com/feed/"
+  - name: "Bored Panda · Animals"
+    lang: EN
+    kind: rss
+    url: "https://www.boredpanda.com/animals/feed/"
+
+exclude:
+  sources:  # 과제 제외 목록
+    - https://openai.com/blog/rss.xml
+    - https://deepmind.google/blog/rss.xml
+    - https://techcrunch.com/category/artificial-intelligence/feed/
+    - https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    - https://www.technologyreview.com/feed/
+    - https://www.aitimes.com/rss/allArticle.xml
+  conditions:
+    - "학대·유기·사고·사망·투병 등 슬프거나 불편한 소식 (구조·입양으로 끝나도 제외)"
+    - "제품·병원·업체 홍보성 기사"
+    - "이미 발행한 URL (store/seen.json)"
+    - "수집 기간(collect.window_hours) 이전 기사"
+
+prelim:  # 예선 PASS/DROP 조건 (중요도 판단 문장 ①②를 구체화)
+  pass:
+    - "① 강아지·고양이의 따뜻한 사연, 귀엽거나 웃긴 소식, 사람과의 유대가 느껴지는 이야기"
+    - "② 반려견·반려묘의 건강·행동·생활 팁, 흥미로운 연구 결과, 반려인에게 영향 있는 새 제도·서비스"
+  drop: "제외 조건에 해당하는 슬프거나 불편한 소식, 강아지·고양이가 아닌 동물이 중심인 기사, 제품·병원 홍보성, 정치·법적 분쟁"
+
+collect:
+  window_hours: 48  # 재발행은 seen.json이 막음
+
+selection:
+  prelim_batch_size: 10
+  final_axes:  # 본선 채점 축 (각 1~5점, 합계로 순위)
+    healing: "읽고 마음이 따뜻해지거나 미소가 지어지는가"
+    interest: "독자가 몰랐던 흥미로운 사실·연구·소식인가"
+    usefulness: "반려 생활에 바로 써먹을 수 있는가 (비반려인에게도 흥미로운가)"
+    credibility: "출처와 사실 관계가 분명한가 (연구·기관 발표 > 기사 > 커뮤니티 사연)"
+  final_count: {min: 3, max: 5}
+  max_per_source: 2
+
+card:  # 기사 카드: 한국어 제목 + 요약 3문장 + 아래 항목 (검수관이 모순·과장 여부를 확인)
+  fields:
+    - key: healing_point
+      label: "💛 힐링 포인트"
+      instruction: "읽는 사람 마음이 따뜻해지는 지점 1문장. 본문 사실에 근거하고 과장하지 않는다"
+    - key: tip
+      label: "🐾 집사 팁"
+      instruction: "기사에서 얻을 수 있는 반려 생활 정보 1개. 본문에 근거가 없으면 지어내지 않는다"
+      optional: true
+  evidence: []  # 근거 수준 태그 생략
+
+publish:
+  channel: discord  # telegram (TELEGRAM_BOT_TOKEN·TELEGRAM_CHAT_ID) | discord (DISCORD_WEBHOOK_URL)
+
+review:
+  max_regenerations: 2
+  max_replacements: 2
+  min_publish: 3

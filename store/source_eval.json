@@ -1,0 +1,895 @@
+{
+  "measured_at": "2026-10-29T07:46:33.752252+00:00",
+  "sources": [
+    {
+      "name": "노트펫",
+      "lang": "KO",
+      "url": "https://www.notepet.co.kr/rss",
+      "role": "measure",
+      "http_status": 200,
+      "entries": 100,
+      "freq_7d": 87,
+      "access_rate": 1.0,
+      "topic_fit": 0.0,
+      "fit_samples": [
+        {
+          "title": "바르면 녹고 보습력은 62%↑…한국콜마, 신개념 파우더 개발",
+          "fit": false,
+          "reason": "화장품 신기술 개발 관련 기사로 강아지·고양이(반려견·반려묘)에 대한 언급이나 중심 내용이 없음."
+        },
+        {
+          "title": "북촌에서 한돈 돼지 구워볼까…도드람, 한돈 축제 '도드람 페스타' 개최",
+          "fit": false,
+          "reason": "돼지고기 축제와 팝업스토어 관련 기사로 반려견·반려묘가 중심인 내용이 아님."
+        },
+        {
+          "title": "신세계, 롯데 센텀시티 품었다…부산에 초대형 '신세계 타운' 조성",
+          "fit": false,
+          "reason": "백화점 인수 및 복합상권 조성 관련 기사로 반려동물 중심 내용이 아님."
+        },
+        {
+          "title": "삼성전자 '실적 신기록' 이어간다…주주환원·미래투자 확대 (종합)",
+          "fit": false,
+          "reason": "삼성전자 실적 및 주주환원 관련 기사로 반려견·반려묘와 무관함."
+        },
+        {
+          "title": "'34년 면세통' 박장서…현대면세점 흑자 이끌고 부사장 승진",
+          "fit": false,
+          "reason": "면세점 경영진 승진 관련 기사로 반려동물 관련 내용이 없음."
+        },
+        {
+          "title": "정지선의 '안정 속 쇄신'…기존 수장에 힘 싣고 한섬은 바꿨다",
+          "fit": false,
+          "reason": "현대백화점그룹 임원인사 및 조직개편 관련 기사로 반려동물과 무관함."
+        },
+        {
+          "title": "삼성전자 '실적 신기록' 이어간다…주주환원·미래투자도 확대",
+          "fit": false,
+          "reason": "삼성전자 실적 관련 보도로 반려견·반려묘와 관련된 내용이 아님."
+        },
+        {
+          "title": "'마시면 이틀 뒤 깬다'던 캪틴큐, 품절 대란에 3만세트 추가",
+          "fit": false,
+          "reason": "주류 한정판 완판 관련 기사로 반려견·반려묘 중심 기사가 아님."
+        },
+        {
+          "title": "삼성전자 3분기 반도체 영업익 106.5조…30조 현금배당 결정",
+          "fit": false,
+          "reason": "삼성전자 반도체 영업이익 및 배당 결정 관련 기사로 반려동물과 무관함."
+        },
+        {
+          "title": "'레트로 열풍'에 다시 뜬다…베네통·잭니클라우스 전통의 브랜드 '눈길'",
+          "fit": false,
+          "reason": "패션·레트로 트렌드 관련 기사로 반려견·반려묘가 중심이 아님."
+        },
+        {
+          "title": "박현주의 일본 승부수…산코증권 인수로 ETF·자산관리 공략",
+          "fit": false,
+          "reason": "금융·인수합병 관련 기사로 반려동물과 무관함."
+        },
+        {
+          "title": "이마트, 몽골 진출 10년 만에 출점 가속…노브랜드까지 영토 확장",
+          "fit": false,
+          "reason": "이마트 몽골 출점 및 유통 확장 관련 기사로 반려동물 중심 내용이 아님."
+        },
+        {
+          "title": "'마이리얼트립' 여권번호·암호화 비번까지 털렸다",
+          "fit": false,
+          "reason": "여행 플랫폼 개인정보 유출 사고 관련 기사로 반려견·반려묘와 무관함."
+        },
+        {
+          "title": "100% 자회사 합병도 넉 달 연기…토스 결제 통합에 남은 세 가지 의문",
+          "fit": false,
+          "reason": "토스 자회사 합병 일정 연기 관련 기사로 반려동물 관련 내용 없음."
+        },
+        {
+          "title": "면세점 몸집 줄이고 호텔에 힘 실린 신라…이부진의 다음 선택은",
+          "fit": false,
+          "reason": "호텔신라의 면세점·호텔 사업 재편 관련 기사로 반려동물과 무관함."
+        },
+        {
+          "title": "美 연준도 금리 동결…11월 한국은행은 다시 올릴까",
+          "fit": false,
+          "reason": "미국 연준 금리 동결 및 한국은행 전망 관련 기사로 반려동물 중심이 아님."
+        },
+        {
+          "title": "'개선안은 안 내놓고'..이찬진, 금융지주 회장·의장 번갈아 압박",
+          "fit": false,
+          "reason": "금융감독원장과 금융지주 관련 보도로 반려동물 내용이 없음."
+        },
+        {
+          "title": "패션 살아나고 리조트 웃었다…삼성물산, 영업익 1.1조 돌파",
+          "fit": false,
+          "reason": "삼성물산 영업실적 및 사업부문 호조 관련 기사로 반려동물과 무관함."
+        },
+        {
+          "title": "쿠팡 산재 은폐 의혹 불기소…정부 \"외압 없고 김범석 잘못된 행위 확인\"",
+          "fit": false,
+          "reason": "쿠팡 산재 조사 및 불기소 관련 기사로 반려동물 중심 내용이 아님."
+        },
+        {
+          "title": "LG전자 실적 반등 이끈 류재철…이제 AI 냉각사업 수익성 시험대",
+          "fit": false,
+          "reason": "LG전자 실적 및 신사업 관련 기사로 반려견·반려묘와 무관함."
+        }
+      ],
+      "fit_weekly": 0.0,
+      "adopted": false,
+      "reject_reasons": [
+        "주간 적합 기사 0.0건 < 7"
+      ]
+    },
+    {
+      "name": "데일리벳",
+      "lang": "KO",
+      "url": "https://www.dailyvet.co.kr/feed",
+      "role": "measure",
+      "http_status": 200,
+      "entries": 10,
+      "freq_7d": 10,
+      "access_rate": 1.0,
+      "topic_fit": 0.6,
+      "fit_samples": [
+        {
+          "title": "CMG제약·인천스카이동물메디컬센터, 엑소좀 활용 반려동물 영양제 공동개발",
+          "fit": true,
+          "reason": "반려동물(반려견·반려묘)의 건강관리 및 영양제 공동연구개발을 다루는 기사이므로 반려동물 중심임."
+        },
+        {
+          "title": "동물병원 위기는 이미 시작..반려견 출생 감소 충격이 동물병원에 오고 있다",
+          "fit": true,
+          "reason": "반려견 출생 감소가 동물병원에 미치는 충격을 다룬 기사로 반려견이 중심임."
+        },
+        {
+          "title": "원내에서 부신질환 진단..아이덱스, ‘Catalyst Cortisol’ 국내 출시",
+          "fit": true,
+          "reason": "반려견의 부신질환 진단을 지원하는 검사 솔루션 출시 기사로 반려견 대상임."
+        },
+        {
+          "title": "농장과 반려동물, 동물원까지..최신 수의병리학 연구 한자리에 모았다",
+          "fit": false,
+          "reason": "농장·반려동물·동물원 등 여러 동물군을 다루는 수의병리학 행사 기사로 반려견·반려묘만을 중심으로 하지 않음."
+        },
+        {
+          "title": "[NEO 2026 하계 해외봉사] ‘원헬스’의 현장에서 수의사의 두각을 보다 – 양하영",
+          "fit": false,
+          "reason": "해외봉사와 원헬스 경험을 다룬 수의사 관련 기사로 특정 반려동물 중심 아님."
+        },
+        {
+          "title": "[포토뉴스] 반려동물 2,800마리 운집한 2026 충남대 동물사랑큰잔치",
+          "fit": true,
+          "reason": "반려동물 2,800마리가 운집한 행사 보도로 반려견·반려묘가 중심임."
+        },
+        {
+          "title": "동물복지 증진·수의학 교육 위한 사체 활용, ‘남용 없는 투명성’과 ‘교육 개선’ 두 마리 토끼 잡아야",
+          "fit": false,
+          "reason": "유기동물 사체 활용 관련 법·교육 기사로 특정 반려동물(강아지·고양이)만을 중심으로 하지 않음."
+        },
+        {
+          "title": "미국수의외과전문의 초청 ‘한국수의외과학회 2차 학술대회’ 11월 15일 개최",
+          "fit": false,
+          "reason": "수의외과 학술대회 안내 기사로 특정 반려동물 중심 내용이 아님."
+        },
+        {
+          "title": "버려진 동물을 위한 수의사회, 안동서 올해 마지막 정기봉사 펼쳐",
+          "fit": true,
+          "reason": "버려진 동물을 위한 봉사활동 기사로 주로 반려동물(강아지·고양이)을 대상으로 한 활동임."
+        },
+        {
+          "title": "[퓨리나 인스티튜트] 고양이 요석증: 영양학적 관리",
+          "fit": true,
+          "reason": "고양이의 요석증 영양학적 관리를 다룬 기사로 고양이가 중심임."
+        }
+      ],
+      "fit_weekly": 6.0,
+      "adopted": false,
+      "reject_reasons": [
+        "주간 적합 기사 6.0건 < 7"
+      ]
+    },
+    {
+      "name": "Bored Panda · Animals",
+      "lang": "EN",
+      "url": "https://www.boredpanda.com/animals/feed/",
+      "role": "measure",
+      "http_status": 200,
+      "entries": 10,
+      "freq_7d": 10,
+      "access_rate": 1.0,
+      "topic_fit": 0.7,
+      "fit_samples": [
+        {
+          "title": "This Rescued Opossum Survived A Near-Fatal Fall And Now Has The Sweetest New Purpose In Life",
+          "fit": false,
+          "reason": "주요 대상이 오포섬(주머니쥐)으로 반려견·반려묘와 무관함."
+        },
+        {
+          "title": "35 Pics Of Pets Living Their Best Lives, Shared By Their Humans On Threads",
+          "fit": true,
+          "reason": "반려동물 사진 모음 기사로 주로 반려견·반려묘가 중심으로 보임."
+        },
+        {
+          "title": "The Internet Can’t Get Enough Of This Smiling Wolf Dog Waking Up In The Mountains",
+          "fit": true,
+          "reason": "늑대개(wolf dog)와 주인 이야기로 반려견 범주에 포함됨."
+        },
+        {
+          "title": "Bumblebees Just Solved A Puzzle That Scientists Once Used To Test Chimpanzees",
+          "fit": false,
+          "reason": "주제가 범봉(벌) 등 곤충에 관한 기사로 반려견·반려묘와 무관함."
+        },
+        {
+          "title": "24 Wholesome Puppy Pics Shared By This Page That Might Just Cure Your Bad Mood",
+          "fit": true,
+          "reason": "강아지(퍼피) 사진 모음 기사로 반려견이 중심임."
+        },
+        {
+          "title": "Man Adopts A Senior Cat Overlooked For 12 Years, And Netizens Can’t Get Enough Of His Progress",
+          "fit": true,
+          "reason": "입양된 시니어 고양이 이야기로 반려묘가 중심임."
+        },
+        {
+          "title": "45 Adorable Photos Of Pets Looking After Babies, Shared By People Online",
+          "fit": true,
+          "reason": "아기와 함께한 반려동물 사진 모음으로 주로 고양이·개가 중심임."
+        },
+        {
+          "title": "These Endangered Australian Birds Have Given Adelaide Zoo A Reason To Celebrate After 34 Years",
+          "fit": false,
+          "reason": "주제가 희귀 조류(카소아리) 번식 소식으로 반려견·반려묘와 무관함."
+        },
+        {
+          "title": "46 Purr-fectly Timed Cat Pics That Might Make You Laugh Out Loud, As Shared By This Page",
+          "fit": true,
+          "reason": "고양이 사진 모음 기사로 반려묘가 중심임."
+        },
+        {
+          "title": "Rescue Dog’s Before-And-After Photos Prove A Second Chance Can Change Everything",
+          "fit": true,
+          "reason": "구조된 개의 전후 변화 이야기로 반려견이 중심임."
+        }
+      ],
+      "fit_weekly": 7.0,
+      "adopted": true,
+      "reject_reasons": []
+    },
+    {
+      "name": "Good News Network · Animals",
+      "lang": "EN",
+      "url": "https://www.goodnewsnetwork.org/category/news/animals/feed/",
+      "role": "measure",
+      "http_status": 200,
+      "entries": 50,
+      "freq_7d": 5,
+      "access_rate": 1.0,
+      "topic_fit": 0.15,
+      "fit_samples": [
+        {
+          "title": "Bizarre Rescue Sees Divers Save Kangaroo That Found Itself Over a Mile from Dry Land",
+          "fit": false,
+          "reason": "캥거루가 주인공인 기사로 반려견·반려묘와 무관함."
+        },
+        {
+          "title": "Numbers of Endangered and Sacred River Dolphin Grow by 6 After Successful Breeding Season",
+          "fit": false,
+          "reason": "강(혹은 강둑) 돌고래가 중심인 기사로 반려견·반려묘 아님."
+        },
+        {
+          "title": "LIVE Webcam Brings You Inside Cheetah Den With 5 Tiny Cubs Tended By Mom (The Meows are Mesmerizing)",
+          "fit": false,
+          "reason": "치타(야생 대형고양이)가 중심인 기사로 반려묘(가정용 고양이)와 다름."
+        },
+        {
+          "title": "53 Orangutans Rescued from Fires in Borneo, With Many Rewilded to Forest Preserves Across the Island",
+          "fit": false,
+          "reason": "오랑우탄 보전 기사가 주제라 반려동물 아님."
+        },
+        {
+          "title": "Rescuers Ensure Orphaned Baby Walrus Gets a Second Chance (LOOK)",
+          "fit": false,
+          "reason": "바다코끼리(야생 포유류) 구조 이야기로 반려동물 아님."
+        },
+        {
+          "title": "10-Year-Old Dog Found After a Month Lost in Yellowstone",
+          "fit": true,
+          "reason": "반려견(잭 러셀 테리어)의 실종 및 발견 기사로 반려견 중심임."
+        },
+        {
+          "title": "Tiny Black Cat Stuck in Car Engine Brings Unexpected Joy to Couple With Halloween Wedding Anniversary",
+          "fit": true,
+          "reason": "반려묘(작은 검은 고양이)가 중심인 기사임."
+        },
+        {
+          "title": "Massive 70lb Dog the Size of Baby Hippo Sheds Pounds and Gets New Home",
+          "fit": true,
+          "reason": "반려견(대형 불독)의 체중 감량과 새 가정 이야기로 반려견 중심임."
+        },
+        {
+          "title": "Largest Private Conservation Project in the US Hits Major Milestone as Free-Roaming Bison Pass 1,000",
+          "fit": false,
+          "reason": "야생 바이슨 보전 프로젝트 기사로 반려동물 아님."
+        },
+        {
+          "title": "Giant Tortoise Population is Thriving–Survey Finds 180,000 on One Island Chain",
+          "fit": false,
+          "reason": "거대 거북(야생종) 개체수 조사 기사로 반려동물 아님."
+        },
+        {
+          "title": "Sloth Bear Named By Julia Roberts is Flourishing After Rescue From Dancing Trade in India",
+          "fit": false,
+          "reason": "슬로스 베어(야생 곰)가 중심인 기사로 반려동물 아님."
+        },
+        {
+          "title": "Neighbors Flock to Rescue a Wounded Owl Tangled Up in Barbed Wire",
+          "fit": false,
+          "reason": "올빼미(야생 조류) 구조 기사라 반려동물 아님."
+        },
+        {
+          "title": "Saudi Solar Park Proves Brilliant Breeding Ground for Threatened Sand Gazelles",
+          "fit": false,
+          "reason": "사막 가젤(야생 포유류) 번식 기사로 반려동물 아님."
+        },
+        {
+          "title": "Orphaned, Rescued, and Rewilded, Female Gorilla Becomes a Mother in Historic Conservation Success",
+          "fit": false,
+          "reason": "고릴라 보전·재도입 기사로 반려동물 아님."
+        },
+        {
+          "title": "Rare 1-in-100M ‘Ghost Lobster’ Goes to School to Help Scientists Crack Genetic Mystery–in Time for Halloween",
+          "fit": false,
+          "reason": "희귀 랍스터(해양 무척추동물) 관련 기사로 반려동물 아님."
+        },
+        {
+          "title": "Genetic Analysis All But Confirms the Most Unique of Humpback Populations Is Actually a Subspecies",
+          "fit": false,
+          "reason": "혹등고래 유전자 연구 기사로 반려동물 아님."
+        },
+        {
+          "title": "First Ever Recorded Sea Turtle Nests on America’s West Coast",
+          "fit": false,
+          "reason": "바다거북 산란 사례 기사로 반려동물 아님."
+        },
+        {
+          "title": "A Strategy of Cash-for-Photos Turns Animal Hunters into Animal Protectors in Indonesia",
+          "fit": false,
+          "reason": "야생동물(조류·오랑우탄) 보호 프로그램 기사로 반려동물 아님."
+        },
+        {
+          "title": "Vietnam Swiftly Protects Forests Containing the Last of the World’s Most-Endangered Monkey",
+          "fit": false,
+          "reason": "희귀 야생 원숭이 보호구역 관련 기사라 반려동물 아님."
+        },
+        {
+          "title": "Newly Identified Frog-like Creature Named by Student Scientists After Their Moms",
+          "fit": false,
+          "reason": "고대 양서류 유사 생물학 명명 기사로 반려동물 아님."
+        }
+      ],
+      "fit_weekly": 0.8,
+      "adopted": false,
+      "reject_reasons": [
+        "빈도 5건/주 < 7",
+        "주간 적합 기사 0.8건 < 7"
+      ]
+    },
+    {
+      "name": "iHeartDogs",
+      "lang": "EN",
+      "url": "https://iheartdogs.com/feed/",
+      "role": "measure",
+      "http_status": 200,
+      "entries": 30,
+      "freq_7d": 30,
+      "access_rate": 1.0,
+      "topic_fit": 0.95,
+      "fit_samples": [
+        {
+          "title": "Dog Chained To Louisiana Porch For Weeks Finally Reaches Safety",
+          "fit": true,
+          "reason": "루이지애나에서 마당에 사슬로 묶여 있던 개를 구조하는 내용으로 반려견 중심 기사."
+        },
+        {
+          "title": "16-Year-Old Shelter Dog Tillie Gets the Happy Ending She Deserves",
+          "fit": true,
+          "reason": "16세 쉼터 개 Tillie의 입양·보호 이야기로 반려견 중심 기사."
+        },
+        {
+          "title": "Rescuers Meet Sick 14-Year-Old Dachshund and Promise Him a Better Tomorrow",
+          "fit": true,
+          "reason": "14세 닥스훈트(개)의 병세와 구조 약속을 다룬 반려견 중심 기사."
+        },
+        {
+          "title": "Playful Springer Spaniel Turns Halloween Skeletons Into Tug-of-War Partners",
+          "fit": true,
+          "reason": "영국 스프링어 스패니얼(개)의 장난스러운 행동을 다룬 반려견 중심 기사."
+        },
+        {
+          "title": "Rottweiler Runs From Tiny French Bulldog Dressed as Spider",
+          "fit": true,
+          "reason": "로트와일러와 프렌치 불독(개) 사이의 해프닝을 다룬 반려견 중심 기사."
+        },
+        {
+          "title": "Sweet Shelter Dog Has a Halloween Wish That Has Nothing to Do With Treats",
+          "fit": true,
+          "reason": "쉐리라는 구조견의 할로윈 복장과 입양 희망을 다룬 반려견 중심 기사."
+        },
+        {
+          "title": "11 Scruffy Dog Breeds That Look Like Adorable Little Werewolves",
+          "fit": true,
+          "reason": "여러 개 품종을 소개하는 기사로 반려견(강아지) 중심이다."
+        },
+        {
+          "title": "Scared, Abandoned Pittie Wouldn’t Leave The Cardboard Box He Was Found In",
+          "fit": true,
+          "reason": "버려진 핏불(개)을 발견하고 구조한 이야기를 다룬 반려견 중심 기사."
+        },
+        {
+          "title": "Woman Took In ‘Street Dog’ Who Escaped Every Night, She Eventually Followed Him",
+          "fit": true,
+          "reason": "거리에서 데려온 ‘스트리트 도그’(개)를 입양한 이야기로 반려견 중심 기사."
+        },
+        {
+          "title": "Neighbors And Firefighters Rush To Rescue Veteran’s Service Dog Hit By Car",
+          "fit": true,
+          "reason": "퇴역 군인의 서비스견(개)이 차에 치인 사건을 다룬 반려견 중심 기사."
+        },
+        {
+          "title": "Rescued Pit Bull Has ‘Nonstop’ Conversations With Her Dog Mom",
+          "fit": true,
+          "reason": "구조된 핏불(개) Maisy의 행동과 주인과의 교감을 다룬 반려견 중심 기사."
+        },
+        {
+          "title": "Couple Discovers Their New Rescue Dog Is Related To Their Late Canine",
+          "fit": true,
+          "reason": "새로 입양한 구조견과 유전자 검사·가족 관련 에피소드를 다룬 반려견 중심 기사."
+        },
+        {
+          "title": "While All The Other Dogs Played, The Neglected Husky Sat Frozen With Fear In A Corner",
+          "fit": true,
+          "reason": "학대·방치된 허스키(개)의 공포 상태를 다룬 반려견 중심 기사."
+        },
+        {
+          "title": "Soccer Players Kick Off Game By Finding Homes For Shelter Dogs",
+          "fit": true,
+          "reason": "축구 경기에서 입양 대기 중인 개들을 홍보·입양한 행사로 반려견 중심 기사."
+        },
+        {
+          "title": "Starving Mama Dog And Her Malnourished Newborns Saved Just In Time",
+          "fit": true,
+          "reason": "굶주린 어미개와 새끼 강아지들을 구조한 이야기로 반려견 중심 기사."
+        },
+        {
+          "title": "Tiniest Wounded Puppy Hears Her Voice, Comes Into Yard & Begs For Help",
+          "fit": true,
+          "reason": "상처 입은 아주 작은 강아지(3주령)를 구조한 이야기로 반려견 중심 기사."
+        },
+        {
+          "title": "Couple adopts rescue dog before meeting him. When the door opens to reveal him they “lose it”",
+          "fit": true,
+          "reason": "부부가 구조견을 입양하는 감동적 장면을 다룬 반려견 중심 기사."
+        },
+        {
+          "title": "Dog Walker Comes Across Gentle Pit Bull Tied To A Tree With A Note Attached",
+          "fit": true,
+          "reason": "공원 나무에 묶여 있던 핏불(개)을 발견한 개 산책자의 구조 이야기로 반려견 중심 기사."
+        },
+        {
+          "title": "Stray Baby Slept In Alleyway On Dirty Mat When Mama Rejected His Infection",
+          "fit": false,
+          "reason": "내용이 ‘떠돌이 새끼’로 되어 있으나 동물 종이 명시되지 않아 강아지·고양이 중심 여부 불명."
+        },
+        {
+          "title": "Woman Drugged Sick Dog’s Food And Watched Her Hoping She’d Collapse",
+          "fit": true,
+          "reason": "길에서 병든 개의 음식에 약물을 넣어 관찰한 사건을 다룬 반려견 중심 기사."
+        }
+      ],
+      "fit_weekly": 28.5,
+      "adopted": true,
+      "reject_reasons": []
+    },
+    {
+      "name": "iHeartCats",
+      "lang": "EN",
+      "url": "https://iheartcats.com/feed/",
+      "role": "measure",
+      "http_status": 200,
+      "entries": 10,
+      "freq_7d": 10,
+      "access_rate": 1.0,
+      "topic_fit": 1.0,
+      "fit_samples": [
+        {
+          "title": "Cat Sneaks Into Bowling Alley and Finds His Forever Home",
+          "fit": true,
+          "reason": "고양이가 주인공인 기사(볼링장에 들어온 고양이와 입양 이야기)."
+        },
+        {
+          "title": "Veterinarian Reveals How Long Cats Can Safely Stay Home Alone",
+          "fit": true,
+          "reason": "고양이를 주제로 한 수의사 조언 기사(고양이가 집에 혼자 있어도 되는 기간)."
+        },
+        {
+          "title": "These Tiny Foster Kittens Have Big Bellies and an Important Lesson to Share",
+          "fit": true,
+          "reason": "새끼 고양이(고양이 보호소·임시보호 관련) 중심 기사이다."
+        },
+        {
+          "title": "11 Cat Breeds That Look Like They Belong In A Witch’s Cottage",
+          "fit": true,
+          "reason": "고양이 품종을 다룬 기사(마녀의 오두막에 어울리는 고양이 품종 소개)."
+        },
+        {
+          "title": "Don’t Let the Devil Horns Fool You, This Shelter Cat Has the Heart of an Angel",
+          "fit": true,
+          "reason": "보호소의 고양이를 다룬 기사(특정 고양이 특징과 성격 소개)."
+        },
+        {
+          "title": "11 Affectionate Cat Breeds That Love A Cozy Lap",
+          "fit": true,
+          "reason": "고양이 품종의 애정 표현 성향을 다룬 기사(무릎에 앉기를 좋아하는 고양이)."
+        },
+        {
+          "title": "9 Best Donut Cat Beds for Cozy, Calming Comfort",
+          "fit": true,
+          "reason": "고양이용 침대를 추천하는 상품 기사(고양이 중심 콘텐츠)."
+        },
+        {
+          "title": "11 Things Your Cat Notices About You Every Day",
+          "fit": true,
+          "reason": "고양이의 행동을 설명하는 기사(고양이가 주인에게 무엇을 인지하는지)."
+        },
+        {
+          "title": "13 Cat Breeds That Look Like Little Woodland Creatures",
+          "fit": true,
+          "reason": "고양이 품종을 다룬 기사(작은 숲 속 생물처럼 보이는 고양이들 소개)."
+        },
+        {
+          "title": "Eight Kittens Found Under Tarp Get a Second Chance",
+          "fit": true,
+          "reason": "여덟 마리 새끼 고양이 구조 및 재활 관련 기사이다."
+        }
+      ],
+      "fit_weekly": 10.0,
+      "adopted": true,
+      "reject_reasons": []
+    },
+    {
+      "name": "Dogster",
+      "lang": "EN",
+      "url": "https://www.dogster.com/feed",
+      "role": "measure",
+      "http_status": 200,
+      "entries": 30,
+      "freq_7d": 4,
+      "access_rate": 1.0,
+      "topic_fit": 0.95,
+      "fit_samples": [
+        {
+          "title": "Oh My Gourd – Understanding the Risks and Benefits of the Highly Underrated Pumpkin",
+          "fit": false,
+          "reason": "호박(음식/계절) 관련 기사로 반려견·반려묘와 무관함."
+        },
+        {
+          "title": "When Art Meets Animal Rescue: A Creative Way to Help Dogs Find Homes",
+          "fit": true,
+          "reason": "예술을 통한 동물 구조로 입양되는 개들이 주요 대상임."
+        },
+        {
+          "title": "Dogster’s Weekly Photo Contest Winners: Show Me Your Paws! (October 26, 2026)",
+          "fit": true,
+          "reason": "Dogster의 개 사진 콘테스트 수상작을 다루는 기사임."
+        },
+        {
+          "title": "What Makes a Lucky Dog? | Heroes of the Pet World",
+          "fit": true,
+          "reason": "제목과 내용이 ‘행운의 개’ 등 개를 주제로 함."
+        },
+        {
+          "title": "Trick or Treat? These Halloween Hazards Can Be Hellish For Dogs",
+          "fit": true,
+          "reason": "할로윈이 개에게 미치는 위험을 설명하는 개 중심 기사임."
+        },
+        {
+          "title": "HELP WANTED: Scientists Seeking Senior Dogs To Unlock the Secrets of Aging",
+          "fit": true,
+          "reason": "노령 개를 대상으로 한 과학자 모집 기사로 개가 중심임."
+        },
+        {
+          "title": "Ask Dr. Paola - HELP! My Elderly Dog is Drinking and Urinating A Lot! (October 19, 2026)",
+          "fit": true,
+          "reason": "노견의 배뇨 문제에 대한 수의학 상담 글로 개가 중심임."
+        },
+        {
+          "title": "Pawstruck Chews Review 2026: Our Expert’s Opinion",
+          "fit": true,
+          "reason": "개용 츄 제품 리뷰로 반려견을 중심으로 다룸."
+        },
+        {
+          "title": "Looking For A More Satisfying Chew? Inside Nylabone's New Chew Toy Collection Made with Real Meat",
+          "fit": true,
+          "reason": "Nylabone의 씹는 장난감(주로 개용) 소개로 반려견 관련임."
+        },
+        {
+          "title": "Beyond the Kennel: Giving Long-Stay Shelter Dogs a Chance to Be Seen",
+          "fit": true,
+          "reason": "보호소의 장기 보호견을 조명하는 글로 개가 중심임."
+        },
+        {
+          "title": "Annoying Habits That Are Actually Cries for Help",
+          "fit": true,
+          "reason": "개들의 징후적 행동과 도움 방안을 다루는 개 중심 기사임."
+        },
+        {
+          "title": "48 Bulldogs, One Apartment, and a Disturbing Secret",
+          "fit": true,
+          "reason": "48마리 불독을 다룬 사건 기사로 개가 중심임."
+        },
+        {
+          "title": "Dogster’s Weekly Photo Contest Winners: Best Derp Face (October 12, 2026)",
+          "fit": true,
+          "reason": "Dogster의 개 사진 콘테스트(derp face) 기사임."
+        },
+        {
+          "title": "Thinking About Adopting A Dog? Here Are 5 Things To Ask Before Bringing Them Home",
+          "fit": true,
+          "reason": "개 입양 전 확인할 사항을 안내하는 개 중심 기사임."
+        },
+        {
+          "title": "If Life With Dogs Were a Movie, These Would Be the Outtakes",
+          "fit": true,
+          "reason": "‘개와의 생활’ 아웃테이크를 다루는 개 중심 글임."
+        },
+        {
+          "title": "What’s That Smell??? How To Tell the Difference Between Normal Stinky Dog Breath and A Warning Sign",
+          "fit": true,
+          "reason": "개의 구취(입냄새) 구분과 건강 신호를 설명하는 기사임."
+        },
+        {
+          "title": "Dogs on the Screen and in the Audience for Brad Pitt’s New Film",
+          "fit": true,
+          "reason": "영화 관련 기사에서 개들의 출연 및 관람 상황을 다룸."
+        },
+        {
+          "title": "Ask Dr. Paola - HELP! My Havanese Puppy Isn’t Eating! (October 5, 2026)",
+          "fit": true,
+          "reason": "하바네즈 강아지의 식욕부진 상담 기사로 강아지가 중심임."
+        },
+        {
+          "title": "Fido Fave Dual-Sided Pet Hair Removal Carpet Rake Review 2026: Our Expert’s Opinion",
+          "fit": true,
+          "reason": "반려동물(털) 제거용 제품 리뷰로 반려견·반려묘 관련 기사임."
+        },
+        {
+          "title": "Pyometra: Signs, Causes, and Care (Vet Answer)",
+          "fit": true,
+          "reason": "암컷 개의 자궁질환(자궁축농증) 증상·치료를 다루는 수의학 답변임."
+        }
+      ],
+      "fit_weekly": 3.8,
+      "adopted": false,
+      "reject_reasons": [
+        "빈도 4건/주 < 7",
+        "주간 적합 기사 3.8건 < 7"
+      ]
+    },
+    {
+      "name": "Catster",
+      "lang": "EN",
+      "url": "https://www.catster.com/feed",
+      "role": "measure",
+      "http_status": 200,
+      "entries": 30,
+      "freq_7d": 4,
+      "access_rate": 1.0,
+      "topic_fit": 1.0,
+      "fit_samples": [
+        {
+          "title": "What’s up, Butt? What a Cat’s Trying to Say With Their Derrière in the Air",
+          "fit": true,
+          "reason": "고양이의 행동을 설명하는 기사이므로."
+        },
+        {
+          "title": "The Secret to National Happiness is More Cats…or is it?",
+          "fit": true,
+          "reason": "고양이를 주제로 한 기사이므로."
+        },
+        {
+          "title": "Catster’s Weekly Photo Contest Winners: Just Being Crazy (October 26, 2026)",
+          "fit": true,
+          "reason": "고양이 사진 콘테스트 관련 기사이므로."
+        },
+        {
+          "title": "The Woman Keeping Pets and People Together | Heroes of the Pet World",
+          "fit": true,
+          "reason": "CatCrazy와 고양이 관련 활동을 다루는 기사이므로."
+        },
+        {
+          "title": "Chatting About Cosmetic Animal Testing, Covid Conspiracies, & Brainless Cats | Chatty Cattys, Episode 39",
+          "fit": true,
+          "reason": "고양이 수면 행동 등 고양이를 중심으로 한 팟캐스트 내용이므로."
+        },
+        {
+          "title": "Who’s a Scaredy Cat? Keeping Cats Safe This Halloween",
+          "fit": true,
+          "reason": "할로윈에 대비한 고양이 안전 관련 기사이므로."
+        },
+        {
+          "title": "The Common Flea Pill Preventing New World Screwworm",
+          "fit": true,
+          "reason": "고양이·반려견에 사용되는 살충제(카프스타)를 다루는 기사이므로."
+        },
+        {
+          "title": "Ask Dr. Paola – HELP! My Orphaned Kittens Are Suckling Each Other! (October 19, 2026)",
+          "fit": true,
+          "reason": "새끼 고양이(키튼) 돌봄 관련 Q&A 기사이므로."
+        },
+        {
+          "title": "PetPivot AutoScooper 12 Review 2026: Our Expert Opinion",
+          "fit": true,
+          "reason": "고양이용 자동 배변 처리기(AutoScooper) 제품 리뷰이므로."
+        },
+        {
+          "title": "Neakasa Riko Fresh-Made Wet Meal Feeder Review 2026: Our Expert’s Opinion",
+          "fit": true,
+          "reason": "반려동물(고양이 포함)을 위한 습식 급여기 제품 리뷰이므로."
+        },
+        {
+          "title": "Chatting About Safe Scruffing Education, Feline Altruism, and Our Guest, Cyril | Chatty Cattys, Episode 38",
+          "fit": true,
+          "reason": "고양이를 중심으로 한 팟캐스트 에피소드이므로."
+        },
+        {
+          "title": "The Cat Network, Inc. – How a $35 Bounty Started an Epic Journey",
+          "fit": true,
+          "reason": "Cat Network와 고양이를 중심으로 한 이야기이므로."
+        },
+        {
+          "title": "The Silent Health Problem Vets Say Most Cat Owners Never See Coming",
+          "fit": true,
+          "reason": "고양이의 치과 건강 문제를 다루는 기사이므로."
+        },
+        {
+          "title": "The Mission to Help Feral Cats – It Takes More Than One Day to Make a Difference",
+          "fit": true,
+          "reason": "들고양이(페럴 캣) 지원과 TNR 관련 기사이므로."
+        },
+        {
+          "title": "Annual Cat Writers’ Association Conference: The Cat Event of the Year Is Coming to Dallas–Fort Worth",
+          "fit": true,
+          "reason": "고양이 작가 협회와 고양이 행사 안내 기사이므로."
+        },
+        {
+          "title": "Catster’s Weekly Photo Contest Winners: Too Cool to Care (October 12, 2026)",
+          "fit": true,
+          "reason": "고양이 사진 콘테스트 관련 기사이므로."
+        },
+        {
+          "title": "Thinking About Adopting A Cat? Here Are 4 Things To Ask Before Bringing Them Home",
+          "fit": true,
+          "reason": "고양이 입양 전 고려사항을 다루는 기사이므로."
+        },
+        {
+          "title": "CatCon 2026 – Comic-Con for Cat People",
+          "fit": true,
+          "reason": "고양이 팬을 위한 행사(CatCon) 관련 기사이므로."
+        },
+        {
+          "title": "CatCrazy Creator Petra Luna Receives Four Certificates of Excellence for Cat-Focused Video Work",
+          "fit": true,
+          "reason": "고양이 중심 영상작업 수상 관련 보도자료이므로."
+        },
+        {
+          "title": "Chatting About Weird Cat Behaviors, Hissing, & Cats Who Hump | Chatty Cattys, Episode 37",
+          "fit": true,
+          "reason": "고양이 행동 관련 팟캐스트 에피소드이므로."
+        }
+      ],
+      "fit_weekly": 4.0,
+      "adopted": false,
+      "reject_reasons": [
+        "빈도 4건/주 < 7",
+        "주간 적합 기사 4.0건 < 7"
+      ]
+    },
+    {
+      "name": "애니멀피플(한겨레)",
+      "lang": "KO",
+      "url": "https://www.hani.co.kr/rss/animalpeople/",
+      "role": "rss_fail",
+      "http_status": 404,
+      "entries": 0,
+      "freq_7d": 0,
+      "adopted": false,
+      "reject_reasons": [
+        "RSS 수집 불가 (HTTP 404, 항목 0건)"
+      ]
+    },
+    {
+      "name": "동그람이(한국일보)",
+      "lang": "KO",
+      "url": "https://www.hankookilbo.com/rss/dongguramee",
+      "role": "rss_fail",
+      "http_status": 404,
+      "entries": 0,
+      "freq_7d": 0,
+      "adopted": false,
+      "reject_reasons": [
+        "RSS 수집 불가 (HTTP 404, 항목 0건)"
+      ]
+    },
+    {
+      "name": "펫저널",
+      "lang": "KO",
+      "url": "https://www.petjournal.kr/rss/allArticle.xml",
+      "role": "rss_fail",
+      "http_status": "error: ConnectionError",
+      "entries": 0,
+      "freq_7d": 0,
+      "adopted": false,
+      "reject_reasons": [
+        "RSS 수집 불가 (HTTP error: ConnectionError, 항목 0건)"
+      ]
+    },
+    {
+      "name": "코코타임즈",
+      "lang": "KO",
+      "url": "https://www.kokotimes.kr/rss/allArticle.xml",
+      "role": "rss_fail",
+      "http_status": "error: ConnectionError",
+      "entries": 0,
+      "freq_7d": 0,
+      "adopted": false,
+      "reject_reasons": [
+        "RSS 수집 불가 (HTTP error: ConnectionError, 항목 0건)"
+      ]
+    },
+    {
+      "name": "펫뉴스",
+      "lang": "KO",
+      "url": "https://www.petnews.co.kr/rss/allArticle.xml",
+      "role": "rss_fail",
+      "http_status": "error: ConnectionError",
+      "entries": 0,
+      "freq_7d": 0,
+      "adopted": false,
+      "reject_reasons": [
+        "RSS 수집 불가 (HTTP error: ConnectionError, 항목 0건)"
+      ]
+    },
+    {
+      "name": "ScienceDaily · Pets",
+      "lang": "EN",
+      "url": "https://www.sciencedaily.com/rss/plants_animals/pets.xml",
+      "role": "rss_fail",
+      "http_status": 404,
+      "entries": 0,
+      "freq_7d": 0,
+      "adopted": false,
+      "reject_reasons": [
+        "RSS 수집 불가 (HTTP 404, 항목 0건)"
+      ]
+    },
+    {
+      "name": "American Kennel Club",
+      "lang": "EN",
+      "url": "https://www.akc.org/feed/",
+      "role": "rss_fail",
+      "http_status": 200,
+      "entries": 0,
+      "freq_7d": 0,
+      "adopted": false,
+      "reject_reasons": [
+        "RSS 수집 불가 (HTTP 200, 항목 0건)"
+      ]
+    }
+  ],
+  "criteria": {
+    "freq_7d_min": 7,
+    "access_rate_min": 0.8,
+    "fit_weekly_min": 7,
+    "extract_sample": 10,
+    "extract_min_chars": 500,
+    "fit_sample": 20
+  }
+}

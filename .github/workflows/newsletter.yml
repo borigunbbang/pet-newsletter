@@ -1,0 +1,41 @@
+name: newsletter
+
+on:
+  schedule:
+    - cron: "0 22 * * *"  # UTC 22:00 = 매일 07:00 KST
+  workflow_dispatch:       # Actions 탭의 Run workflow 버튼
+
+permissions:
+  contents: write  # store/ 자동 커밋
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: python run.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5-mini
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}  # publish.channel: discord일 때
+
+      # 발행 보류·실패한 run의 기록도 남기도록 항상 실행
+      - name: Commit store
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add store/
+          git diff --cached --quiet || (git commit -m "chore(store): run ${{ github.run_id }} [skip ci]" && git push)

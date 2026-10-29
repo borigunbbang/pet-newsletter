@@ -1,0 +1,18 @@
+# 소스 후보 (tools/eval_sources.py가 실측). role: measure = 실측, reserve = 예비(측정 안 함), rss_fail = RSS 단계에서 탈락
+candidates:
+  - {name: "노트펫", lang: KO, role: measure, url: "https://www.notepet.co.kr/rss"}
+  - {name: "데일리벳", lang: KO, role: measure, url: "https://www.dailyvet.co.kr/feed"}
+  - {name: "Bored Panda · Animals", lang: EN, role: measure, url: "https://www.boredpanda.com/animals/feed/"}
+  - {name: "Good News Network · Animals", lang: EN, role: measure, url: "https://www.goodnewsnetwork.org/category/news/animals/feed/"}
+  - {name: "iHeartDogs", lang: EN, role: measure, url: "https://iheartdogs.com/feed/"}
+  - {name: "iHeartCats", lang: EN, role: measure, url: "https://iheartcats.com/feed/"}
+  - {name: "Dogster", lang: EN, role: measure, url: "https://www.dogster.com/feed"}
+  - {name: "Catster", lang: EN, role: measure, url: "https://www.catster.com/feed"}
+  # RSS 단계에서 탈락 (주소 없음·접속 불가·항목 0건)
+  - {name: "애니멀피플(한겨레)", lang: KO, role: rss_fail, url: "https://www.hani.co.kr/rss/animalpeople/"}
+  - {name: "동그람이(한국일보)", lang: KO, role: rss_fail, url: "https://www.hankookilbo.com/rss/dongguramee"}
+  - {name: "펫저널", lang: KO, role: rss_fail, url: "https://www.petjournal.kr/rss/allArticle.xml"}
+  - {name: "코코타임즈", lang: KO, role: rss_fail, url: "https://www.kokotimes.kr/rss/allArticle.xml"}
+  - {name: "펫뉴스", lang: KO, role: rss_fail, url: "https://www.petnews.co.kr/rss/allArticle.xml"}
+  - {name: "ScienceDaily · Pets", lang: EN, role: rss_fail, url: "https://www.sciencedaily.com/rss/plants_animals/pets.xml"}
+  - {name: "American Kennel Club", lang: EN, role: rss_fail, url: "https://www.akc.org/feed/"}
